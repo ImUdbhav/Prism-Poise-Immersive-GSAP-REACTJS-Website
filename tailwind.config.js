@@ -9,6 +9,7 @@ export default {
       fontFamily: {
         'mono': ['Courier New', 'Courier', 'monospace'],
       },
+        'space': ["Space Grotesk", 'serif'],
       
     },
   },

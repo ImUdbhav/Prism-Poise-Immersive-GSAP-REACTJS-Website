@@ -43,7 +43,7 @@ function Hero() {
     <section className="h-[120vh] flex flex-col items-center justify-center mt-36">
       <h1
         ref={h1Ref}
-        className="text-[12vw] text-slate-900 uppercase font-medium tracking-tighter"
+        className="text-[12vw] text-slate-900 uppercase font-space font-medium tracking-tighter"
       >
         {text.split("").map((char, i) => (
           <span key={i} className="inline-block">
