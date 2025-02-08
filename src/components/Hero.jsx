@@ -18,8 +18,8 @@ function Hero() {
         opacity: 1,
         y: 0, 
         stagger: 0.05, 
-        duration: 1, 
-        ease: "power4.out", 
+        duration: 1.4, 
+        ease: "power3.inOut", 
       }
     );
 
@@ -31,8 +31,8 @@ function Hero() {
         opacity: 1,
         y: 0, 
         duration: 1.5, 
-        ease: "power4.out",
-        delay: 1, 
+        ease: "power4.inOut",
+        delay: 1.1 
       }
     );
   }, []);
@@ -43,7 +43,7 @@ function Hero() {
     <section className="h-[120vh] flex flex-col items-center justify-center mt-36">
       <h1
         ref={h1Ref}
-        className="text-[12vw] text-slate-900 uppercase font-space font-medium tracking-tighter"
+        className="text-[12.5vw] text-slate-900 uppercase font-space font-medium tracking-tighter"
       >
         {text.split("").map((char, i) => (
           <span key={i} className="inline-block">
